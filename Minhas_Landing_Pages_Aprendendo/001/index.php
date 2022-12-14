@@ -52,20 +52,52 @@
         </div>
     </nav>
     <main class="container">
-        <section class="row pt-5">            
+        <section class="row pt-5">
             <article class="col-6">
                 <h1>Criando Modelo</h1>
                 <ul class="nav nav-tabs mt-5" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link active" data-bs-toggle="tab" href="#home" aria-selected="true" role="tab">Home</a>
+                        <a class="nav-link active" data-bs-toggle="tab" href="#home" aria-selected="true" role="tab">HOME</a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link" data-bs-toggle="tab" href="#profile" aria-selected="false" role="tab" tabindex="-1">Profile</a>
+                        <a class="nav-link" data-bs-toggle="tab" href="#profile" aria-selected="false" role="tab" tabindex="-1">PERFIL</a>
                     </li>
                 </ul>
                 <div id="myTabContent" class="tab-content">
                     <div class="tab-pane fade active show" id="home" role="tabpanel">
                         <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+                        <ul>
+                            <li>
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#pricing">Pricing</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#pricing">Pricing</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#pricing">Pricing</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#pricing">Pricing</a>
+                            </li>
+                        </ul>
                     </div>
                     <div class="tab-pane fade" id="profile" role="tabpanel">
                         <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit.</p>
@@ -75,7 +107,7 @@
             <article class="col-6 border">
                 <form>
                     <fieldset>
-                        <legend>Produto Mockup 001</legend>                        
+                        <legend>Produto Mockup 001</legend>
                         <img id="mockup" class="form-control p-0" src="img/mockup.jpg" />
                         <div class="form-group">
                             <label for="nome" class="form-label mt-4">Nome</label>
@@ -87,6 +119,11 @@
                         <button type="submit" class="btn btn-outline-warning form-control my-3">Submit</button>
                     </fieldset>
                 </form>
+            </article>
+        </section>
+        <section class="row my-3">
+            <article class="col-12">
+                <hr />
             </article>
         </section>
     </main>
@@ -154,6 +191,11 @@
             </div>
         </article>
         <article class="row">
+            <div class="col-12 mb-3">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-info progress-bar-animated form-control" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
             <div class="col-12 border">
                 <h2>Depoimentos</h1>
             </div>
